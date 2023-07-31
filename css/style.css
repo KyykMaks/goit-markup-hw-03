@@ -1,20 +1,27 @@
 body {
   font-family: 'Roboto', sans-serif;
-
+  color:  var(--navyblue);
   background-color: var(--white);
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 :root {
-  --iris: #4D5AE5 ; 
-  --navyblue: #2E2F42; 
-  --ocean: #404BBF; 
-  --slate: #434455; 
-  --white: #FFFFFF; 
-  --cloud: #F4F4FD; 
-  --cornflower: #E7E9FC; 
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --cornflower: #e7e9fc;
 }
 
 .logo {
-  color: var(--iris );
+  color: var(--iris);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -23,7 +30,7 @@ body {
   text-transform: uppercase;
 }
 .logo-next {
-  color: var(--navyblue );
+  color: var(--navyblue);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -31,7 +38,7 @@ body {
   letter-spacing: 0.03em;
 }
 .logo-studio {
-  color: var(--cloud, );
+  color: var(--cloud);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -40,10 +47,10 @@ body {
 }
 .menu.link:hover,
 .menu.link:focus {
-  color: var(--ocean );
+  color: var(--ocean);
 }
 .menu {
-  color: var(--navyblue );
+  color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -57,48 +64,63 @@ body {
   text-decoration: none;
 }
 .address-list {
-  color: var(--slate );
+  color: var(--slate);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.02em;
- 
-  
 }
 .address-list.link:hover,
 .address-list.link:focus {
-  color: var(--ocean );
-  
+  color: var(--ocean);
 }
 .address {
   font-style: normal;
-  
 }
-  
-
+/* section */
+.imagen {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
 .section {
-  background: var(--navyblue );
+  background: var(--navyblue);
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .section-our-team {
-  background-color: var(--cloud );
+  background-color: var(--cloud);
 }
-/* Header 1 */
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .main {
-  color: var(--white );
+  color: var(--white);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
 }
-
 .button-all {
-  background: var(--cloud ) ;
-  color: var(--iris );
+  background: var(--cloud);
+  color: var(--iris);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
@@ -107,13 +129,12 @@ body {
 }
 .button-all:hover,
 .button-all:focus {
-  color: var(--white );
-  background-color: var(--ocean );
-
+  color: var(--white);
+  background-color: var(--ocean);
 }
 .button {
-  background-color: var(--iris );
-  color: var(--white );
+  background-color: var(--iris);
+  color: var(--white);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -123,14 +144,14 @@ body {
 }
 .button:hover,
 .button:focus {
-  background-color: var(--ocean );
+  background-color: var(--ocean);
 }
 .name-list {
-  background-color: var(--white );
+  background-color: var(--white);
 }
 /* Body */
 .name-h {
-  color: var(--navyblue );
+  color: var(--navyblue);
   text-align: center;
   font-size: 36px;
   line-height: 1.11; /* 111.111% */
@@ -138,31 +159,31 @@ body {
   text-transform: capitalize;
 }
 .name-paragrah {
-  color: var(--slate );
+  color: var(--slate);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.02em;
 }
 .name-studio {
-  color: var(--slate );
+  color: var(--slate);
   text-align: center;
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
 .name-advantages {
-  color: var(--navyblue );
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.02em;
 }
 footer {
-  background: var(--navyblue );
+  background: var(--navyblue);
 }
 .footer-paragrah {
-  color: var(--cloud );
+  color: var(--cloud);
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.02em;
