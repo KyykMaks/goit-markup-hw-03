@@ -20,7 +20,12 @@ img {
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
 }
-.header-box{
+.container {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+.header-box {
   display: flex;
   align-items: center;
 }
@@ -37,6 +42,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-next {
   color: var(--navyblue);
@@ -55,6 +62,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .menu.link:hover,
 .menu.link:focus {
@@ -109,22 +118,14 @@ img {
 }
 
 /* section */
-.imagen {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 25px;
-}
+
 .section {
   background: var(--navyblue);
   padding: 188px 0 188px;
 }
-.container {
-  width: 1158px;
-  padding: 0 15px 0 15px;
-  margin: 0 auto;
-}
 
 
+/* main */
 .section-our-team {
   background-color: var(--cloud);
 }
@@ -177,6 +178,11 @@ img {
   line-height: 24px; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px 12px;
+  border: 1px solid #e7e9fc;
+  border: 1px solid transparent ;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 .button-all:hover,
 .button-all:focus {
@@ -188,14 +194,32 @@ img {
 .button:focus {
   background-color: var(--ocean);
 }
+.button-portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-right: 24px;
+  margin-bottom: 72px;
+}
 .section-advantages {
   padding: 120px 0 120px;
+}
+.section-item {
+  padding-bottom: 120px;
 }
 
 .name-list {
   background-color: var(--white);
 }
-/* Body */
+.list-items {
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+}
+.list-items-img {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
 .name-h {
   color: var(--navyblue);
   text-align: center;
@@ -203,6 +227,8 @@ img {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+
 }
 .name-paragrah {
   color: var(--slate);
@@ -224,13 +250,24 @@ img {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px; 
 }
-footer {
+
+.name-advantages-list{
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+
+}
+/* footer */
+.footer {
   background: var(--navyblue);
+  padding: 100px 0 100px
 }
 .footer-paragrah {
   color: var(--cloud);
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
