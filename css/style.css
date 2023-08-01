@@ -20,6 +20,10 @@ img {
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
 }
+.header-box{
+  display: flex;
+  align-items: center;
+}
 .header-nav {
   display: flex;
   align-items: center;
@@ -85,20 +89,25 @@ img {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.02em;
+  
+}
+.address {
+  font-style: normal;  
+  margin-left: 332px;
+
 }
 .address-item {
   display: flex;
   gap: 40px;
   margin-right: 40px 0;
+  
 }
 
 .address-list.link:hover,
 .address-list.link:focus {
   color: var(--ocean);
 }
-.address {
-  font-style: normal;
-}
+
 /* section */
 .imagen {
   display: flex;
@@ -114,8 +123,7 @@ img {
   padding: 0 15px 0 15px;
   margin: 0 auto;
 }
-.container-section {
-}
+
 
 .section-our-team {
   background-color: var(--cloud);
@@ -140,7 +148,7 @@ img {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin: 0;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 .button {
@@ -157,6 +165,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .button-all {
   background: var(--cloud);
