@@ -111,9 +111,14 @@ img {
   background: var(--navyblue);
   padding: 188px 0 188px;
 }
-.container { 
-  max-width: ;
-  }
+.container {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px 0 15px;
+}
+.container-section {
+
+}
 
 .section-our-team {
   background-color: var(--cloud);
