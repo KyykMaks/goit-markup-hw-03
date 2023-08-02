@@ -8,6 +8,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 *,
 *::before,
 *::after {
@@ -103,7 +107,7 @@ img {
 }
 .address {
   font-style: normal;
-  margin-left: 332px;
+  margin-left: auto;
 }
 .address-item {
   display: flex;
