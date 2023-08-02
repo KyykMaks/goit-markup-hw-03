@@ -182,14 +182,13 @@ img {
   cursor: pointer;
   padding: 12px 24px 12px;
   border: 1px solid var(--cornflower);
-  border: 1px solid transparent;
-  border: 1px solid transparent;
   border-radius: 4px;
 }
 .button-all:hover,
 .button-all:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid transparent;
 }
 
 .button:hover,
@@ -230,7 +229,7 @@ img {
   padding: 32px 0 32px;
 }
 .name-item {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .team {
   display: flex;
