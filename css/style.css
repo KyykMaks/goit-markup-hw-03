@@ -8,9 +8,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
   margin: 0;
-  padding: 0;
 }
 *,
 *::before,
@@ -49,7 +53,6 @@ ul {
   text-transform: uppercase;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 .logo-next {
   color: var(--navyblue);
@@ -58,8 +61,8 @@ ul {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-right: 76px;
 }
+
 .logo-studio {
   color: var(--cloud);
   font-family: 'Raleway', sans-serif;
@@ -79,6 +82,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .menu {
+  display: block;
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
@@ -94,6 +98,8 @@ ul {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -295,7 +301,6 @@ ul {
 .name-advantages-list {
   display: flex;
   gap: 24px;
-  margin-right: 24px;
 }
 .imagine {
   padding: 32px 16px;
@@ -309,7 +314,6 @@ ul {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 /* footer */
 .footer {
