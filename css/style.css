@@ -56,22 +56,10 @@ h6 p {
 }
 .logo-next {
   color: var(--navyblue);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .logo-studio {
   color: var(--cloud);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 .menu.link:hover,
@@ -316,6 +304,9 @@ h6 p {
   border-top: none;
 }
 /* footer */
+.item {
+  margin-bottom: 16px;
+}
 .footer {
   background: var(--navyblue);
   padding: 100px 0 100px;
